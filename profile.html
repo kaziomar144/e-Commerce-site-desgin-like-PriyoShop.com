@@ -1,0 +1,675 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap cnd -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Datepicker UI CDN -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/slicknav.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+
+
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+    <!-- <div class="color-setting"></div>
+  <span><i class="fas fa-palette"></i>
+            <ul>
+                <li class="colors" id="red" data-primay="#E30047" data-secondary="#C8003E"></li>
+            </ul>
+    
+    </span> -->
+
+
+    <!-- ===========Header Section=========== -->
+    <header id="header">
+        <!-- ======== Top Header ========= -->
+        <div class="top_header">
+            <div class="center">
+                <div class="row">
+                    <div class="col-md-4 top_header_content">
+                        <p>Best online shoppin site in Bangladesh</p>
+                    </div>
+                    <div class="col-md-4 top_header_content center-text">
+                        <i class="fad fa-user-headset"></i> <a href="tel:+8801701029783">+8801701029783</a>
+                    </div>
+                    <div class="col-md-4 top_header_content">
+                        <div class="top_header_btn">
+                            <a href="#">How to buy</a>
+                            <a href="#">Sell With us</a>
+                            <a href="#"><img src="img/icons/Play-Store-icon.png" alt="play-icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ======== END Top Header ========= -->
+
+
+        <!-- ============Middle Header============= -->
+        <div class="middle_header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2 logo_area">
+                        <a href="./index.html"> <img src="img/logo.png" alt="Logo | PriyoShop"></a>
+                    </div>
+                    <div class="col-md-7 search_area center-text">
+                        <form action="">
+                            <input type="text" placeholder="Search here">
+                            <span class="searce_btn">
+                                <input type="submit" value="Search">
+                            </span>
+                        </form>
+                    </div>
+                    <div class="col-md-3 middle_header_right">
+
+
+                        <ul class="header_info">
+                            <li class="dropdown">
+                                <a class="link-light dropdown-toggle text-white" data-toggle="dropdown" href="#"
+                                    role="button" aria-haspopup="true" aria-expanded="false">0 item(s) <i
+                                        class="fas fa-shopping-cart"></i></a>
+                                <div class="dropdown-menu" id="cartDropdown">
+                                    <div class="subTotal">
+                                        <p>Sub total: <span>&#2547; 500</span></p>
+                                    </div>
+                                    <div class="cart_btn">
+                                        <a href="./cart.html" class="btn-goToCart">Go to cart</a>
+                                        <a href="#" class="btnCheckOut">Checkout</a>
+                                    </div>
+                                </div>
+                            </li>
+
+
+                            <li class="dropdown">
+                                <a class="link-light dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                    aria-haspopup="true" aria-expanded="false">My Account <i
+                                        class="fas fa-user-tie"></i></a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#"><i class="fal fa-user-circle"></i> <span>My
+                                            Profile</span></a>
+                                    <a class="dropdown-item" href="#"><i class="fal fa-heart"></i><span>Wish
+                                            List</span></a>
+                                    <a class="dropdown-item" href="./login-page.html"><i class="fal fa-sign-in-alt"></i>
+                                        <span>Login</span></a>
+                                    <a class="dropdown-item" href="./register-page.html"><i class="fal fa-edit"></i>
+                                        <span>Register</span></a>
+                                </div>
+                            </li>
+
+                        </ul>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============END Middle Header============= -->
+
+        <!-- ===============Header Main Menu================= -->
+        <div class="main_menu" id="main_menu">
+            <div class="container-fluid">
+                <ul id="nav-menu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="./category-wise.html">Exciting Offers</a></li>
+                    <li><a href="">Daily Needs</a></li>
+                    <li><a href="">Books Gallery</a>
+                        <ul>
+                            <li><a href="">Sub Menu 1</a></li>
+                            <li><a href="">Sub Menu 2</a></li>
+                            <li class="icon">
+                                <a href="">Sub Menu 3</a>
+                                <ul>
+                                    <li><a href="">Deep Menu 1</a></li>
+                                    <li><a href="">Deep Menu 2</a></li>
+                                    <li><a href="">Deep Menu 3</a></li>
+                                    <li class="icon">
+                                        <a href="">Deep Menu 4</a>
+                                        <ul>
+                                            <li><a href="">Deep Sub Menu 1</a></li>
+                                            <li><a href="">Deep Sub Menu 2</a></li>
+                                            <li><a href="">Deep Sub Menu 3</a></li>
+                                            <li><a href="">Deep Sub Menu 4</a></li>
+                                            <li><a href="">Deep Sub Menu 5</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Deep Menu 5</a></li>
+
+                                </ul>
+                            </li>
+                            <li><a href="">Sub Menu 4</a></li>
+                            <li><a href="">Sub Menu 5</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="">Men's Clothing</a></li>
+                    <li><a href="">Women's Clothing</a></li>
+                    <li><a href="">Kids Zone</a></li>
+                    <li><a href="">Mobile & Electronics</a></li>
+                    <li><a href="">Fashion & Beauty</a></li>
+                    <li><a href="">Home & Living</a></li>
+                </ul>
+
+
+                <div class="mobile_navbar flex-div">
+                    <ul class="flex-div">
+                        <li id="mobile_search"><a href="#"><i class="far fa-search"></i></a>
+                        </li>
+                        <div class="search_wrap">
+                            <div class="search">
+                                <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                                <button type="submit" class="searchButton">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+
+
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="false" href="#"><i
+                                    class="fas fa-shopping-cart"></i></a>
+
+                            <div class="dropdown-menu" id="cartDropdown">
+                                <div class="subTotal">
+                                    <p>Sub total: <span>&#2547; 500</span></p>
+                                </div>
+                                <div class="cart_btn">
+                                    <a href="#" class="btn-goToCart">Go to cart</a>
+                                    <a href="#" class="btnCheckOut">Checkout</a>
+                                </div>
+                            </div>
+
+
+                        </li>
+
+
+
+                        <li class="dropdown"><a class="link-light dropdown-toggle" data-toggle="dropdown" href="#"
+                                role="button" aria-haspopup="true" aria-expanded="false" href="#"><i
+                                    class="fas fa-user-tie"></i></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#"><i class="fal fa-user-circle"></i> <span>My
+                                        Profile</span></a>
+                                <a class="dropdown-item" href="#"><i class="fal fa-heart"></i><span>Wish List</span></a>
+                                <a class="dropdown-item" href="./login-page.html"><i class="fal fa-sign-in-alt"></i>
+                                    <span>Login</span></a>
+                                <a class="dropdown-item" href="./register-page.html"><i class="fal fa-edit"></i>
+                                    <span>Register</span></a>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+
+    <!-- ===========END Header Section=========== -->
+
+
+
+
+    <!-- ==================== Content section ============== -->
+
+    <section id="user_profile">
+        <div class="container-fluid">
+            <div class="h2_title">
+                <h2>MY ACCOUNT - CUSTOMER INFO</h2>
+            </div>
+            <div class="user_wrapper">
+                <div class="user_list">
+                    <ul class="list">
+
+                        <li class="customer-info" onclick="tabShow('#customer-info')">
+                            <a href="javascript:void(0)" class="active">Customer info</a>
+                        </li>
+                        <li class="customer-addresses" onclick="tabShow('#customer-addresses')">
+                            <a href="javascript:void(0)">Addresses</a>
+                        </li>
+                        <li class="customer-orders" onclick="tabShow('#customer-orders')">
+                            <a href="javascript:void(0)">Orders</a>
+                        </li>
+                        <li class="downloadable-products" onclick="tabShow('#downloadable-products')">
+                            <a href="javascript:void(0)">Downloadable products</a>
+                        </li>
+                        <li class="back-in-stock-subscriptions" onclick="tabShow('#back-in-stock-subscriptions')">
+                            <a href="javascript:void(0)">Back in stock subscriptions</a>
+                        </li>
+                        <li class="change-password" onclick="tabShow('#change-password')">
+                            <a href="javascript:void(0)">Change password</a>
+                        </li>
+                        <li class="customer-reviews">
+                            <a href="javascript:void(0)">My product reviews</a>
+                        </li>
+                        <li class="customer-affiliate-info">
+                            <a href="javascript:void(0)">Apply affiliate</a>
+                        </li>
+                        <li class="customer-payment-method">
+                            <a href="javascript:void(0)">Payment Method</a>
+                        </li>
+                        <li class="customer-wallet">
+                            <a href="javascript:void(0)">Shopping Credit</a>
+                        </li>
+                        <li class="customer-voucher">
+                            <a href="javascript:void(0)">Voucher</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Customer information -->
+            <div class="register_form tabData" id="customer-info">
+                <div class="card">
+                    <form action="#">
+                        <div class="card-body">
+                            <div class="user_title">
+                                <h4>Your Personal Details</h4>
+                            </div>
+                            <div class="user_info">
+                                <div class="user_input">
+                                    <label style="margin: 0;">Gender:</label><br>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="user_gender">
+                                        <label class="form-check-label" for="prefer_email">Male</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="user_gender">
+                                        <label class="form-check-label" for="prefer_phone">Female</label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="userName">Name</label>
+                                    <input type="text" class="form-control" id="userName" value="Tahsan"><span
+                                        class="required">*</span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="userName">Date of birth::</label>
+                                    <input class="form-control" id="DateOfBirth">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="userEmail">Email address</label>
+                                    <input type="email" class="form-control" id="userEmail">
+                                </div>
+                                <div class="form-group">
+                                    <label for="userPhone">Phone</label>
+                                    <input type="tel" class="form-control" id="userPhone">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="user_title">
+                                <h4>Company Details</h4>
+                            </div>
+                            <div class="form-group">
+                                <label for="userPassword">Company name:</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="user_add">
+                            <div class="card-body">
+                                <div class="register_title">
+                                    <h4>YOUR ADDRESS</h4>
+                                </div>
+                                <div class="form-group">
+                                    <label for="userStreetAddress">Street address:</label>
+                                    <input type="text" class="form-control" id="userStreetAddress"
+                                        placeholder="Enter address"><span class="required">*</span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="my-select">Country:</label>
+                                    <select id="my-select" class="form-control" name="">
+                                        <option selected>Select Country</option>
+                                        <option>Bangladesh</option>
+                                        <option>Japan</option>
+                                        <option>Philippines</option>
+                                        <option>Pakistan</option>
+                                        <option>India</option>
+                                        <option>China</option>
+                                        <option>Vietnam</option>
+                                        <option>Iran</option>
+                                    </select><span class="required">*</span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="my-select">District:</label>
+                                    <select id="my-select" class="form-control" name="">
+                                        <option selected>--Select district--</option>
+
+                                    </select><span class="required">*</span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="my-select">Police Station:</label>
+                                    <select id="my-select" class="form-control" name="">
+                                        <option selected>--Select police station--</option>
+
+                                    </select><span class="required">*</span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="cus-cont-info">
+                            <div class="card-body">
+                                <div class="cus-cont-title">
+                                    <h4> Your Contact Information</h4>
+                                </div>
+                                <div class="form-group">
+                                    <label for="userPhone">Phone</label>
+                                    <input type="text" class="form-control" id="userPhone" value="+8801701029783"><span
+                                        class="required">*</span>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-rg">Save</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            <!-- Customer information END-->
+
+
+            <!-- Customer Addresses -->
+            <div id="customer-addresses" class="tabData hide">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <p>No Address Found</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body text-center">
+                        <button type="submit" class="btn btn-primary btn-rg">Add New</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Customer Addresses END-->
+
+            <!-- Customer Order -->
+            <div id="customer-orders" class="tabData hide">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Order Number: 428845</h5>
+                        <ul class="order-info">
+                            <li><b>Order status :</b><span>Placed</span></li>
+                            <li><b>Order Date:</b><span>11/10/2021 4:47:05 PM</span></li>
+                            <li><b>Order Total :</b><span>Tk 980</span></li>
+                            <li><b>Payment Method :</b><span>Cash On Delivery (COD)</span></li>
+                            <li><b>Order status :</b><span>Placed</span></li>
+                            <li><b>Payment Status :</b><span>Pending</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="order_info_icon">
+                    <input type="button" value="Details">
+                </div>
+
+            </div>
+            <!-- Customer Order END -->
+
+            <!-- Customer downloadable-products-->
+            <div id="downloadable-products" class="tabData hide">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text text-center">There are no downloadable products</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Customer downloadable-products END-->
+
+
+            <!-- Customer back-in-stock-subscriptions-->
+            <div id="back-in-stock-subscriptions" class="tabData hide">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text text-center">You are not currently subscribed to any Back In Stock
+                            notification lists</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Customer back-in-stock-subscriptions END-->
+
+
+            <!-- Customer Password Change-->
+            <div id="change-password" class="tabData hide">
+                <div class="card">
+                    <div class="card-body">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="userPassword">Old Password</label>
+                                <input type="password" class="form-control" id="userPassword"
+                                    placeholder="Password"><span class="required">*</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="userNewPassword">New Password</label>
+                                <input type="password" class="form-control" id="userNewPassword"
+                                    placeholder="Password"><span class="required">*</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="userCpassword">Confirm Password</label>
+                                <input type="password" class="form-control" id="userCpassword"
+                                    placeholder="Confirm Password"><span class="required">*</span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-rg">Change Password</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Customer Password Change END-->
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="social_icon">
+                            <ul class="flex-div">
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="#"><i class="far fa-rss"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <h4 class="footer_title">Informartion</h4>
+                        <div class="footer_menu">
+                            <ul>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <h4 class="footer_title">Customar Service</h4>
+                        <div class="footer_menu">
+                            <ul>
+                                <li><a href="#">Security Policy</a></li>
+                                <li><a href="#">Orders, Stock Availability & Pricing</a></li>
+                                <li><a href="#">Shipping & Replacement</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms of Use</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <h4 class="footer_title">My Account</h4>
+                        <div class="footer_menu">
+                            <ul>
+                                <li><a href="#">Customer info</a></li>
+                                <li><a href="#">Orders</a></li>
+                                <li><a href="#">Shopping cart</a></li>
+                                <li><a href="#">Wish List</a></li>
+                                <li><a href="#">Compare products list</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <h4 class="footer_title">Contact Us</h4>
+                        <div class="footer_contact_menu">
+                            <ul>
+                                <li><i class="fas fa-phone-square-alt"></i><a
+                                        href="tel:+8801701029783">+8801701029783</a></li>
+                                <li><i class="far fa-envelope-open"></i><a
+                                        href="mailto:info@kaziomar.com">info@kaziomar.com</a></li>
+                                <li><i class="fal fa-map-marker-alt"></i></i><a href="#">Firefly Infotech Ltd, 6/Kha,
+                                        2/32, Senpara, Mirpur-10, Dhaka</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="footer_bottom_left">
+                            <!-- <img src="img/payment-sprite.png"> -->
+                            <ul class="payments">
+                                <li class="method1"><a href="#"></a></li>
+                                <li class="method2"><a href="#"></a></li>
+                                <li class="method3"><a href="#"></a></li>
+                                <li class="method4"><a href="#"></a></li>
+                                <li class="method5"><a href="#"></a></li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="footer_bottom_right">
+                            <img src="img/playstor.png">
+                            <p>Copyright © 2021 FireflyBD.com. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+
+
+
+
+    <!-- owl -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- DatePicker Ui -->
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+
+
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/zoomsl.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function () {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('set', 'transport', 'beacon');
+        ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+
+    <script>
+        function tabShow(tabid) {
+            $(".tabData").addClass("hide");
+            $(tabid).removeClass("hide");
+        }
+    </script>
+
+</body>
+
+</html>

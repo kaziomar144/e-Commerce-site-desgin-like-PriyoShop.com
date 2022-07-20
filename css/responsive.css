@@ -1,0 +1,449 @@
+@media screen and (max-width: 992px) {
+    #header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #header .top_header,
+    #header .middle_header .search_area,
+    #header .middle_header .middle_header_right,
+    #header .main_menu ul#nav-menu {
+        display: none;
+    }
+
+    #header .middle_header {
+        order: 2;
+        background-color: var(--white);
+        margin-top: 50px;
+    }
+
+    .middle_header .col-md-2.logo_area {
+        max-width: 100%;
+        flex: 0 0 100%;
+        text-align: center;
+    }
+
+    #header .middle_header .logo_area img {
+        opacity: 1;
+    }
+
+    #header .middle_header .logo_area a {
+        background: none;
+    }
+
+    #header .main_menu {
+        order: 1;
+        height: 50px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+        position: fixed;
+        z-index: 9;
+        border-top: 3px solid var(--primary-color);
+        /* overflow: hidden; */
+    }
+
+
+    .dropdown-menu {
+        top: 20% !important;
+        left: -208% !important;
+        min-width: 15rem !important;
+    }
+
+    .dropdown-toggle::after {
+        display: none;
+    }
+
+    .mobile_navbar ul li a {
+        text-align: left;
+    }
+
+    #banner_section .first_banner,
+    #banner_section .second_banner {
+        height: 230px;
+    }
+
+   /* ===============Mobile navbar Start============= */
+    .mobile_navbar {
+        justify-content: center;
+    }
+
+    .mobile_navbar ul li {
+        display: inline-block;
+        line-height: 50px;
+        border-left: 1px solid var(--white-color);
+        padding: 0 20px;
+    }
+
+    .mobile_navbar ul li:last-child {
+        border-right: 1px solid var(--white-color);
+    }
+
+    .mobile_navbar ul li a {
+        text-align: left;
+        color: var(--primary-color);
+    }
+
+    .search_wrap {
+        position: absolute;
+        top: 107%;
+        left: 10%;
+        width: 80%;
+    }
+
+    .search_wrap.active {
+        display: block;
+    }
+
+    .search {
+        width: 100%;
+        position: relative;
+        display: flex;
+    }
+
+    .searchTerm {
+        width: 100%;
+        /* border: 3px solid #00B4CC; */
+        border: 3px solid var(--primary-color);
+        border-right: none;
+        padding: 15px;
+        height: 20px;
+        border-radius: 5px 0 0 5px;
+        outline: none;
+        color: #9DBFAF;
+    }
+
+    .searchTerm:focus {
+        color: var(--primary-color);
+    }
+
+    .searchButton {
+        width: 40px;
+        height: 36px;
+        line-height: 41px;
+        border: 1px solid var(--primary-color);
+        background: var(--primary-color);
+        text-align: center;
+        color: #fff;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    .slicknav_menu {
+        display: block;
+    }
+
+    .slicknav_btn {
+        color: var(--primary-color);
+        top: 1.29%;
+        right: 0;
+        position: fixed;
+    }
+
+    #header .main_menu .mobile_navbar {
+        visibility: visible;
+    }
+/* ===============Mobile navbar END============= */
+
+
+
+    #banner_section {
+        padding: 10px 22px 0px;
+        overflow: hidden;
+    }
+
+    #content_section {
+        padding: 0px 10px;
+    }
+
+    .recent_product .recent_product_card {
+        justify-content: flex-start;
+    }
+
+    footer {
+        padding: 0px 0 15px;
+    }
+
+    footer .footer_area .footer_title {
+        font-size: 14px;
+    }
+
+    footer .footer_area .footer_menu ul li a {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    footer .footer_area .footer_menu ul li::before {
+        font-size: 14px;
+    }
+
+
+    /* ==================================================
+         single page css start
+    ======================================================*/
+    .master-column-wrapper .product-essential .product_picture_wrapper {
+        margin: 0 -60px;
+        padding: 15px;
+    }
+
+    .master-column-wrapper .product-essential .product_picture_wrapper img {
+        height: auto;
+        width: 100%;
+    }
+
+    .addToCartPanel .addToCartBtn button {
+        width: 200px;
+        margin: 4px 2px;
+    }
+
+    .protuct_overviwe .product_name h1 {
+        font-size: 25px;
+    }
+
+    .recent_product .recent_product_card .card,.cate-grid .card {
+        width: 48%;
+        text-align: center;
+    }
+
+    /* ==================================================
+         single page css end
+    ======================================================*/
+    /* <!--==============================================
+            category wise products section 
+    ===============================================--> */
+  .cate-grid{
+      justify-content: center;
+  }
+/* <!--==============================================
+            category wise products section 
+===============================================--> */
+
+    /* bootstrap over write */
+    /* font page modal */
+    .modal {
+        top: 30px;
+    }
+
+    .modal-open .modal {
+        z-index: 999999;
+    }
+    /* bootstrap over write */
+    /* font page modal */
+
+    /*============ Cart page css=============== */
+    input.form-control.item-qty {
+        width: 66px;
+    }
+    .coupon_code input {
+        width: 98%;
+        float: none;
+    }
+    .coupon_code button {
+        float: none;
+        width: 65%;
+        margin: 3% 1% 0;
+    }
+
+    /* =============Cart page css END============= */
+
+}
+
+@media screen and (max-width: 768px) {
+
+    /* #banner_section {
+        max-height: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    } */
+    footer .footer_area .footer_menu ul li:last-child {
+        margin-bottom: 30px;
+    }
+
+    footer .footer_bottom {
+        padding: 5px 0 0 0;
+    }
+
+    footer .footer_bottom .footer_bottom_left,
+    footer .footer_bottom .footer_bottom_right,
+    #content_section .img_title h2,
+    #content_section .owl-item .card-title {
+        text-align: center;
+    }
+
+    /* .slicknav_btn {
+        top: 2.5%;
+        left: 59.5%;
+    } */
+    #content_section .img_title h2 {
+        font-size: 22px;
+        margin: 10px 0 24px 0;
+    }
+
+    #content_section .img_title h2::after {
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 25%;
+    }
+
+    #content_section .img_title h2::before {
+        font-size: 22px;
+        display: none;
+    }
+
+    .card_left_arrow {
+        left: 0;
+    }
+
+    .card_right_arrow {
+        right: 0;
+    }
+
+    #content_section .owl-item .card {
+        width: 100%;
+    }
+
+    .slicknav_nav {
+        width: 80%;
+    }
+
+    #banner_section {
+        width: 100%;
+        height: 100%;
+        max-height: 100%;
+        flex-wrap: wrap;
+    }
+
+    #banner_section .first_banner,
+    #banner_section .second_banner {
+        width: 100%;
+        height: auto;
+    }
+
+    footer .footer_area {
+        margin-left: 20px;
+    }
+
+    /* ==================================================
+         single page css start
+    ======================================================*/
+
+    .master-column-wrapper .product-essential .product_picture_wrapper {
+        margin: 0 15px;
+        padding: 15px;
+    }
+
+    .master-column-wrapper .pd_wrapper .card {
+        padding: 0px;
+    }
+
+    .master-column-wrapper .protuct_overviwe {
+        padding: 0px;
+    }
+
+    .description_wrapper .tab-content {
+        padding-left: 10px;
+    }
+
+    footer .footer_top .social_icon ul li {
+        margin-right: 15px;
+    }
+
+    footer .footer_top .social_icon ul li a {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    footer .footer_top .social_icon ul li {
+        margin-right: 15px;
+    }
+
+    /* modal css */
+    .product_picture_wrapper {
+        text-align: center;
+    }
+
+    .protuct_overviwe {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .product-code-wrapper {
+        justify-content: center;
+    }
+
+    .product-reviews-overview>div {
+        float: none;
+    }
+
+    /* modal css END */
+
+    /* ==================================================
+         single page css END
+    ======================================================*/
+
+
+    /* ============Cart Page css start ===========*/
+    .coupon_code .card,.check_out_card .card {
+        margin-bottom: 20px;
+    }
+    .coupon_code input {
+        width: 63%;
+        float: left;
+    }
+    .coupon_code button {
+        float: left;
+        width: 33%;
+        margin: 0% 1% ;
+    }
+    /* ============Cart Page css END ===========*/
+
+
+
+}
+
+
+@media screen and (max-width: 576px) {
+
+
+    /* ==================================================
+         single page css start
+    ======================================================*/
+    .recent_product .recent_product_card .card,.cate-grid .card {
+        width: 96%;
+    }
+
+    footer .footer_top .social_icon ul li {
+        margin-right: 10px;
+    }
+
+    /* ==================================================
+         single page css END
+    ======================================================*/
+
+
+    /* <!--==============================================
+            category wise products section 
+    ===============================================--> */
+    .cate-grid .card{
+        margin-right: 0;
+    }
+/* <!--==============================================
+            category wise products section 
+===============================================--> */
+
+/*============ Cart page css=============== */
+.coupon_code input {
+    width: 98%;
+    float: none;
+}
+.coupon_code button {
+    float: none;
+    width: 65%;
+    margin: 3% 1% 0;
+}
+
+/* =============Cart page css END============= */
+    
+}
