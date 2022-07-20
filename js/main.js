@@ -212,9 +212,9 @@ $(document).ready(function () {
     // }
 
     //------------- Datepicker---------
-    $( function() {
-        $( "#DateOfBirth" ).datepicker();
-      } );
+    // $( function() {
+    //     $( "#DateOfBirth" ).datepicker();
+    //   } );
 
     // ==========CUSTOMER PROFILE JS END===========
 
